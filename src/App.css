@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.light-mode {
+  background-color: #FFFFFF; /* set background color for light mode */
+}
+
+.dark-mode {
+  background-color: #212121; /* set background color for dark mode */
+  color: #FFFFFF; /* set font color for dark mode */
+}
+
+.MuiSwitch-root {
+  width: 60px;
+  height: 34px;
+  margin: 0 10px;
+}
+
+.MuiSwitch-switchBase {
+  padding: 1px;
+  color: #fff;
+}
+
+.MuiSwitch-track {
+  border-radius: 34px;
+}
+
+.MuiSwitch-thumb {
+  width: 32px;
+  height: 32px;
+  box-shadow: none;
+}
+
+.MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track {
+  background-color: #52d869;
+}
+
+.MuiSwitch-switchBase.Mui-checked:hover + .MuiSwitch-track {
+  background-color: #52d869;
+}
+
