@@ -46,7 +46,7 @@
   color: #FFFFFF; /* set font color for dark mode */
 }
 
-.MuiSwitch-root {
+/* .MuiSwitch-root {
   width: 60px;
   height: 34px;
   margin: 0 10px;
@@ -73,5 +73,5 @@
 
 .MuiSwitch-switchBase.Mui-checked:hover + .MuiSwitch-track {
   background-color: #52d869;
-}
+} */
 
